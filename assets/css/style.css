@@ -46,8 +46,9 @@ nav a {
 }
 /*general text settings*/
 p {
-    display:block;
+    display:flex;
     font-size: 16px;
+    max-width: fit-content;
     
 }
 /*sets section for main display image*/
@@ -119,6 +120,7 @@ p {
 /*specific aspect settings for service elements*/
 .services img {
     max-height: 200px;
+    max-width: fit-content;
 }
 
 .services h2 {
